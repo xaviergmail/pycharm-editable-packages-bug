@@ -1,0 +1,30 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "my-lib"
+    },
+    {
+      "path": "my-runtime"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.idea": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/__pycache__": true,
+      "my-lib": true,
+      "my-runtime": true
+    }
+  },
+  "extensions": {
+    "recommendations": ["ms-python.python"]
+  }
+}
